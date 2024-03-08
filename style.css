@@ -37,7 +37,8 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 15px 10%;
-    background:linear-gradient(#8562E9,#E231FF)
+    background: rgb(133, 98, 233);
+    background: linear-gradient(90deg, rgba(133, 98, 233, 1) 0%, rgba(226, 49, 255, 1) 100%);
 }
 nav ul li{
     display: inline-block;
