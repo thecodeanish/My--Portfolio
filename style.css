@@ -68,8 +68,7 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 10px 10%;
-    background: var(--light-support);
-    box-shadow: 0 4px 4px 0 var(--light-bg);
+    background: var(--light-bg);
 }
 nav ul li{
     display: inline-block;
@@ -79,7 +78,7 @@ nav ul li{
 nav ul li a{
     font-size: 16px;
     color: var(--dark-black);
-    font-weight: 500;
+    font-weight: 600;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     position: relative;
@@ -118,15 +117,87 @@ header{
 }
 .head-area{
     display: flex;
+    position: relative;
     align-items: center;
     flex-wrap: wrap;
+    margin: 0 5%;
 }
 .head-text{
-    padding: 10px;
+    flex-basis: 50%;
+    font-weight: 600;
+    padding: 30px 10px;
+    margin: 0 20px;
+    font-family: "Caladea", serif;
+    text-align: start;
 }
+.head-text h3{
+    font-size: 20px;
+    line-height: 2.5;
+    color: var(--primary-blue);
+}
+.head-text h1{
+    font-size: 50px;
+    line-height: 1.5;
+}
+.head-text h2{
+    font-size: 30px;
+    line-height: 2;
+}
+.head-text h1 span{
+    color: var(--primary-blue);
+}
+.auto-type{
+    color: var(--primary-blue);
+}
+.head-btn{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+#hireMe{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+        text-decoration: none;
+    padding: 7px 17px;
+    margin-right: 10px;
+    color: var(--primary-white);
+    background: var(--secondary-blue);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+#hireMe:hover{
+    background: var(--primary-blue);
+    box-shadow: -5px -5px 5px var(--light-bg);
+}
+#downloadCv{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 7px 17px;
+    text-decoration: none;
+    color: var(--primary-white);
+    background: var(--secondary-blue);
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+}
+#downloadCv:hover{
+    background: var(--primary-blue);
+    box-shadow: -5px -5px 5px var(--light-bg);
+}
+
 .head-image{
-    display: flex;
-    position: relative;
-    padding: 20px;
-    margin-left: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 40%;
+    overflow:hidden;
+    margin: 20px 40px;
+}
+.head-image img{
+    width: 400px;
+    height: 500px;
+    padding: 10px 20px ;
 }

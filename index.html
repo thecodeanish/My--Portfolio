@@ -15,8 +15,13 @@
 
     <!-- Font Awesome Kit -->
     <script src="https://kit.fontawesome.com/e9aaf9a6f0.js" crossorigin="anonymous"></script>
+
     <!-- Link the CSS file of Portfolio -->
     <link rel="stylesheet" href="/style.css">
+
+    <!-- Added Auto typing library Script file-->
+    <script src="/autoTypelib/autotyping.min.js"></script>
+
 </head>
 <body> 
     <!-- Making Navigation Bar Here -->
@@ -42,14 +47,18 @@
         <div class="head-container">
             <div class="head-area">
                 <div class="head-text">
-                    <h3>Hello!</h3>
-                    <h1>I am Anish </h1>
-
-                
+                    <h3>Hi there!</h3>
+                    <h1>I am Anish <span>From India</span><br>This is My <span>Favourite</span> Work</h1>
+                    <!-- Auto typing feaute including here using auto typing library-->
+                    <h2>I am a <span class="auto-type"></span></h2>
+                    <div class="head-btn">
+                        <a href="#" id="hireMe">Hire Me</a>
+                        <a href="/source/CV_Anish.pdf" download id="downloadCv">Download CV</a>
+                    </div>
                 </div>
                 <div class="head-image">
-                    <img src="/source/blob2.png" >
-                    <img src="/source/head_img.png">
+                        <!-- <img src="/source/blob2.png"> -->
+                        <img src="/source/head_img.png">
                 </div>
             </div>
         </div>
@@ -62,8 +71,6 @@
         <div id="About">
             <div class="AboutContainer">
                 
-               
-                
             </div>
         </div>
     </main>
@@ -74,7 +81,9 @@
 
 
 
-    <!-- Link the JavaScript file -->
-    <script src="/javascript.js"></script>
+
+
+<!-- Link the JavaScript file -->
+<script src="/javascript.js" defer></script>
 </body>
 </html>
